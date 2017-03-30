@@ -1,0 +1,103 @@
+
+<div class = "container">
+    <div class="page-header well well-sm">
+        <h1>35 MM</h1>
+    </div><!--end menu header-->
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/01_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/02_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/03_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+    </div><!-- end first row-->
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/04_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/05_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/06_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+    </div><!-- end second row-->
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/07_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/20_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/19_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+    </div><!-- end third row-->
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/10_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/11_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/12_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+    </div><!-- end fourth row-->
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/13_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/18_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <a ng-href="#" class="thumbnail pop">
+                <img src="img/35mm/15_Elisabeth_ORourke_35_mm.jpg">
+            </a>
+        </div>
+    </div><!-- end fifth row-->
+</div><!--end container-->
+
+<script>
+    $(function() {
+    $('.pop').on('click', function() {
+      $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+      $('#imagemodal').modal('show');   
+    });   
+});
+      </script>
